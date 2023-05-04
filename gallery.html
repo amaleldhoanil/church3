@@ -1,0 +1,450 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script><-->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!--> form script <-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+    <title>Carousel Template · Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top "style="background-color: #000033;">
+    <a class="navbar-brand" href="#"> <img class="img"src="img\1.jpg" alt="" ;></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link " href="index.html"><h3>Home</h3> <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="ourhistory.html"><h3>Our History</h3> </a>
+        </li>
+
+
+        <div class="btn-group">
+            <button type="button" class="btn btn-link " data-bs-toggle="dropdown" aria-expanded="false">
+              <h3>Our Church</h3>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="hirarchy.html">Hierarchy</a></li>
+              <li><a class="dropdown-item" href="administration.html">Administration</a></li>
+              <li><a class="dropdown-item" href="formervicar.html">Former Vicar</a></li>
+
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </div>
+         <div class="btn-group">
+    <button type="button" class="btn btn-link " data-bs-toggle="dropdown" aria-expanded="false">
+    <h3>  Organisations </h3>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="sundayschool.html">Sunday School</a></li>
+      <li><a class="dropdown-item" href="churchchoir.html">Church-Choir</a></li>
+      <li><a class="dropdown-item" href="youthassociation.html">Youth Association</a></li>
+
+      <li><a class="dropdown-item" href="vanithasamajam.html">Vanitha Samajam</a></li>
+    </ul>
+  </div>
+  <div class="btn-group">
+  <button type="button" class="btn btn-link  btn-lg" data-bs-toggle="dropdown" aria-expanded="false">
+  <h3>Gallery</h3
+  </button>
+  <ul class="dropdown-menu">
+  <li><a class="dropdown-item" href="#">Current Photo</a></li>
+  <li><a class="dropdown-item" href="#">Old Photos</a></li>
+  <li><a class="dropdown-item" href="#">Events </a></li>
+  <li><hr class="dropdown-divider"></li>
+  <li><a class="dropdown-item" href="#">Calender</a></li>
+  </ul>
+  </div>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+  <ul class="navbar-nav d-flex flex-row ">
+                <!-- Icons -->
+                <li class="nav-item me-3 me-lg-0">
+                    <a class="nav-link" href="#">
+                        <i class="fab fa-facebook-f text-white"></i>
+                    </a>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
+                    <a class="nav-link" href="#">
+                        <i class="fab fa-instagram text-white"></i>
+                    </a>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
+                    <a class="nav-link" href="#">
+                        <i class="fab fa-linkedin text-white"></i>
+                    </a>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
+                    <a class="nav-link" href="#">
+                        <i class="fab fa-github text-white"></i>
+                    </a>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
+                    <a class="nav-link" href="#">
+                        <i class="fab fa-twitter text-white"></i>
+                    </a>
+                </li>
+
+
+
+
+
+
+  <!-- form-->
+
+
+
+
+
+
+
+      <!-- <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form> /*  -->
+    </div>
+
+  </nav>
+  </header>
+
+<div
+  class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white"
+  style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/003.webp'); height: 50vh;"
+>
+  <h1 class="mb-3 h2"></h1>
+
+  <p>
+
+</div>
+
+
+<div class="container">
+         <div class="row">
+            <div class="col-lg-12 text-center my-2">
+                <h1>Gallery</h1>
+            </div>
+         </div>
+         <div class="portfolio-menu mt-2 mb-4">
+          <!--  <ul>
+               <li class="btn btn-outline-dark active" data-filter="*">All</li>
+               <li class="btn btn-outline-dark" data-filter=".gts">Girls T-shirt</li>
+               <li class="btn btn-outline-dark" data-filter=".lap">Laptops</li>
+               <li class="btn btn-outline-dark text" data-filter=".selfie">selfie</li>
+            </ul>
+          -->
+         </div>
+         <div class="portfolio-item row">
+            <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+               <a href="" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://scontent-frt3-2.xx.fbcdn.net/v/t39.30808-6/340447946_596875959166017_1723202314118293733_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=Rq49IvbTzBQAX_7_f6O&_nc_ht=scontent-frt3-2.xx&oh=00_AfAn-wu7zppXqVGNVSiu86HsC56Nq-2rVDAppQ5sZgR-xQ&oe=6458B175" alt="">
+               </a>
+            </div>
+            <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+               <a href="" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="img\545.jpg" alt="">
+               </a>
+            </div>
+            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+               <a href="" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://scontent-fra5-1.xx.fbcdn.net/v/t39.30808-6/340463470_744988157288010_266746755958852596_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=_dunFVLK8joAX9rsgjJ&_nc_ht=scontent-fra5-1.xx&oh=00_AfD8FRJQQmrhXqBMvY-b-SYEp1Ad9C8AMPt7-XC9HqRuyQ&oe=645892F5" alt="">
+               </a>
+            </div>
+            <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+               <a href="" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://scontent-fra5-1.xx.fbcdn.net/v/t39.30808-6/340218077_168833982720303_5698267907519879030_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=vRCr-aO9BtQAX_Mo9eu&_nc_ht=scontent-fra5-1.xx&oh=00_AfAbw3JtKZzmHy6_bw6FyKZSED2_zaIl6ZkDrkS-GcpE9A&oe=64591770" alt="">
+               </a>
+            </div>
+            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+               <a href="" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://scontent-ams4-1.xx.fbcdn.net/v/t39.30808-6/338900167_5771156839678738_1442232042481920528_n.jpg?stp=cp6_dst-jpg_s552x414&_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=7OEKaEP9NVsAX_5M1im&_nc_ht=scontent-ams4-1.xx&oh=00_AfBOX6-SRXdOHKWHsmVhoXjixoqVsWYIGC-0lDYDPm3XJg&oe=64594B36" alt="">
+               </a>
+            </div>
+            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+               <a href="" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-6/338836314_9603891446291219_5253231790408484255_n.jpg?stp=cp6_dst-jpg_s417x417&_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=TqQF0U869OAAX81gjuU&_nc_ht=scontent-fra3-1.xx&oh=00_AfCKy670HJCEi9gOXuucwtJW7dCeZfS-Y3BoqvcCgbwi0Q&oe=64589D35" alt="">
+               </a>
+            </div>
+            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+               <a href="" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://scontent-fra5-2.xx.fbcdn.net/v/t39.30808-6/337540169_162976876270061_5044678916862478710_n.jpg?stp=cp6_dst-jpg&_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=bV7BBKuL54gAX8-DtqV&_nc_ht=scontent-fra5-2.xx&oh=00_AfB5OmRQ7vgP0HrhTwGgNvTcZz8uyaphoX4h0a6c6QTipg&oe=645924E2" alt="">
+               </a>
+            </div>
+            <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+               <a href="g" class="fancylight popup-btn" data-fancybox-group="light">
+       <img class="img-fluid" src="img\00.jpg" alt="">
+               </a>
+            </div>
+            <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+               <a href="" class="fancylight popup-btn" data-fancybox-group="light">
+               <img class="img-fluid" src="https://scontent-ams4-1.xx.fbcdn.net/v/t39.30808-6/324240917_500361332082626_6329102244424452600_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=r3wGYMXu8HwAX8iWUhd&_nc_ht=scontent-ams4-1.xx&oh=00_AfBiewMVXFSFK9KqrNE5mTkdL-Qt89P0YnIaq31Jvi-iqQ&oe=645830CA " alt="">
+               </a>
+            </div>
+
+            </div>
+
+         </div>
+      </div>
+
+
+
+
+
+
+
+
+                    <div >
+                      <!-- Remove the container if you want to extend the Footer to full width. -->
+                      <div class="">
+
+                      <!-- Footer -->
+                      <footer
+                              class="text-center text-lg-start text-white"
+                              style="background-color: #1c2331"
+                              >
+                        <!-- Section: Social media -->
+                        <section
+                                 class="d-flex justify-content-between p-4"
+                                 style="background-color: #6351ce"
+                                 >
+                          <!-- Left -->
+                          <div class="me-5">
+                            <span>Get connected with us on social networks:</span>
+                          </div>
+                          <!-- Left -->
+
+                          <!-- Right -->
+                          <div>
+                            <a href="https://www.facebook.com/stmarysmuscat" class="text-white me-4">
+                              <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="" class="text-white me-4">
+                              <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="" class="text-white me-4">
+                              <i class="fab fa-google"></i>
+                            </a>
+                            <a href="" class="text-white me-4">
+                              <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="" class="text-white me-4">
+                              <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="" class="text-white me-4">
+                              <i class="fab fa-github"></i>
+                            </a>
+                          </div>
+                          <!-- Right -->
+                        </section>
+                        <!-- Section: Social media -->
+
+                        <!-- Section: Links  -->
+                        <section class="">
+                          <div class="container text-center text-md-start mt-5">
+                            <!-- Grid row -->
+                            <div class="row mt-3">
+                              <!-- Grid column -->
+                              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                                <!-- Content -->
+                                <h6 class="text-uppercase fw-bold">St.Mary's Jacobite Syrian Orthodox Church Muscat<p>OMAN</p> </h6>
+                                <hr
+                                    class="mb-4 mt-0 d-inline-block mx-auto"
+                                    style="width: 60px; background-color: #7c4dff; height: 2px"
+                                    />
+                                <p>
+                                   St. Mary's Jacobite Syrian Orthodox Church Muscat came into existence in the year 1980 A.D. As an integral part of the Universal Syrian Orthodox Church with the Patriarch of Antioch, His Holiness Moran Mor Ignatius Aphrem II as its supreme head., it is a remnant of the most ancient Christian church that was born in Jerusalem and brought up in Antioch.</p>
+                                </p>
+                              </div>
+                              <!-- Grid column -->
+
+                              <!-- Grid column -->
+                              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold">Ministries </h6>
+                                <hr
+                                    class="mb-4 mt-0 d-inline-block mx-auto"
+                                    style="width: 60px; background-color: #7c4dff; height: 2px"
+                                    />
+                                    <p>
+                                      <a href="#!" class="text-white">Alter Assistants</a>
+                                    </p>
+                                    <p>
+                                      <a href="churchchoir.html" class="text-white">Church Choir</a>
+                                    </p>
+                                <p>
+                                  <a href="youthassociation.html" class="text-white">Youth Association</a>
+                                </p>
+                                <p>
+                                  <a  href="vanithasamajam.html" class="text-white"> Vanitha Samajam</a>
+                                </p>
+                                <p>
+                                  <a href="sundayschool.html" class="text-white">Sunday School</a>
+                                </p>
+
+                              </div>
+                              <!-- Grid column -->
+
+                              <!-- Grid column -->
+                              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold"> Important Link </h6>
+                                <hr
+                                    class="mb-4 mt-0 d-inline-block mx-auto"
+                                    style="width: 60px; background-color: #7c4dff; height: 2px"
+                                    />
+                                <p>
+                                  <a href="#!" class="text-white">Our History</a>
+                                </p>
+                                <p>
+                                  <a href="#!" class="text-white">Contact Us </a>
+                                </p>
+                                <p>
+                                  <a href="#!" class="text-white">Administration</a>
+                                </p>
+                                <p>
+                                  <a href="#!" class="text-white">Prayer Request </a>
+                                </p>
+                              </div>
+                              <!-- Grid column -->
+
+                              <!-- Grid column -->
+                              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold">Contact</h6>
+                                <hr
+                                    class="mb-4 mt-0 d-inline-block mx-auto"
+                                    style="width: 60px; background-color: #7c4dff; height: 2px"
+                                    />
+                                <p><i class="fas fa-home mr-3"></i>P.O Box 2914, Postal Code 122, Ruwi , Sultanate Of Oman</p>
+                                <p><i class="fas fa-envelope mr-3"></i> info@stmarysmuscat.com</p>
+                                <p><i class="fas fa-phone mr-3"></i> +968 90199680</p>
+                                <p><i class="fas fa-print mr-3"></i> +968 </p>
+                                <p class="float-left"><a href="#">Back to top</a></p>
+                              </div>
+
+                              <!-- Grid column -->
+                            </div>
+                            <!-- Grid row -->
+                          </div>
+                        </section>
+                        <!-- Section: Links  -->
+
+                        <!-- Copyright -->
+                        <div
+                             class="text-center p-3"
+                             style="background-color: rgba(0, 0, 0, 0.2)"
+                             >
+                          © 2023 Copyright:
+                          <a class="text-white" href="https://mdbootstrap.com/"
+                             >MDBootstrap.com</a
+                            >
+                        </div>
+                        <!-- Copyright -->
+                      </footer>
+                      <!-- Footer -->
+
+                      </div>
+                      <!-- End of .container -->
+
+
+
+
+                      <footer class="container">
+                       <p class="float-right"><a href="#">Back to top</a></p>
+                       <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+                      </footer>
+
+                    </div>
+                    <!-- End of .container -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+</html>
